@@ -8,18 +8,17 @@
  * misuse of this material. 
  *
  *****************************************************************************/
+
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Implementation of the statistical functions.
  *
- * <Add Extended Description Here>
+ * Implementation of the statistical functions in the header file stats.h, 
+ * together with a runtime test.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
- *
+ * @author İbrahim İpek
+ * @date 06.10.2023 (DD.MM.YY)
  */
-
-
 
 #include <stdio.h>
 #include "stats.h"
@@ -35,9 +34,37 @@ void main() {
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
-  /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
+  print_statistics(test, SIZE);
+  return 0;
+}
+
+void print_array(double array[], size_t length) {
+ 
+}
+
+int find_median(double array[], size_t length) {
 
 }
 
-/* Add other Implementation File Code Here */
+int find_mean(double array[], size_t length) {
+
+}
+
+
+void sort_array(double array[], size_t length) {
+
+}
+
+int find_maximum(double array[], size_t length) {
+
+}
+
+int find_minimum(double array[], size_t length) {
+
+}
+
+void print_statistics(double array[], size_t length) {
+
+}
+
+
